@@ -118,7 +118,7 @@ st.markdown('---')
 st.markdown("## 📊 Probabilidades dos Placares") 
 
 def aux(x):
-	return f'{str(round(100*x,3))}%'
+	return f'{str(round(100*x,1))}%'
 st.table(matriz.applymap(aux))
 
 
